@@ -1,0 +1,125 @@
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+nav.sticky {
+  box-shadow: 0px 5px 10px #c69b36;
+  position: sticky;
+  top: 0 !important;
+  z-index: 100;
+  background: #c69b36;
+  color: white !important;
+}
+
+nav {
+  transition: 1s;
+  // margin-top: 10px;
+  .navbar__menus__link {
+    ul {
+      margin-top: 2px;
+      li {
+        padding-left: 30px;
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: center;
+          letter-spacing: 0.28px;
+          color: #212121;
+        }
+      }
+    }
+  }
+  .navbar__register {
+    ul {
+      margin-top: 2px;
+      li {
+        margin-left: 50px;
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.14px;
+          color: #212121;
+        }
+        button {
+          padding: 5px 20px;
+          background: #f46a35;
+          border: 1px solid #f46a35;
+          border-radius: 10px;
+          a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #ffffff;
+          }
+        }
+        button:hover {
+          background: #e75116;
+        }
+      }
+    }
+  }
+  .nav__toogler div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: rgb(3, 3, 3);
+    transition: 0.5s ease-in;
+  }
+  .nav__toogler {
+    cursor: pointer;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1078px) {
+  .nav-menu {
+    position: fixed !important;
+    top: 67px;
+    right: 0;
+    width: 100%;
+    height: 94vh;
+    background: #c5aa6a;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    li {
+      a {
+        font-size: 20px !important;
+      }
+    }
+  }
+  .nav__toogler {
+    display: block !important;
+    z-index: 100;
+  }
+}
+@media screen and (max-width: 670px) {
+  .nav-menu {
+    top: 49px;
+  }
+}
+
+.nav_active {
+  transform: translateX(0);
+}
+@media screen and (max-width: 670px) {
+  .nav-register {
+    display: none !important;
+  }
+}
+
+.toogle .line-1 {
+  transform: rotate(-45deg) translate(-6px, 7px);
+}
+.toogle .line-2 {
+  opacity: 0;
+}
+.toogle .line-3 {
+  transform: rotate(45deg) translate(-6px, -7px);
+}

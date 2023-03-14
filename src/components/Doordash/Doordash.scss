@@ -1,0 +1,25 @@
+.doordash {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  .doordash-item {
+    padding: 230px 200px;
+    p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 24px;
+      text-align: center;
+      color: #212121;
+    }
+  }
+  .doordash-item:active {
+    cursor: grab;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .doordash-item {
+    padding: 0 !important;
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 900px) {
+  .brands {
+    flex-wrap: wrap;
+    img {
+      margin: 30px;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .brands {
+    flex-direction: column;
+    justify-content: center;
+  }
+} 

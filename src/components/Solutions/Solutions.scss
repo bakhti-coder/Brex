@@ -1,0 +1,48 @@
+.solutions {
+  margin-top: 150px;
+  .solutions__main {
+    h1 {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 0.64px;
+      color: #ffffff;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.32px;
+      color: #ffffff;
+    }
+    &__left {
+      background-image: url("./images/bg-1.svg");
+      width: 100%;
+    }
+    &__right {
+      background-image: url("./images/bg-2.svg");
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .solutions__main {
+    flex-wrap: wrap;
+    &__left {
+      background-position: center;
+    }
+    &__right {
+      background-position: center;
+    }
+  }
+}
+@media screen and (max-width: 670px) {
+  .solutions__main__left, .solutions__main__right {
+    img {
+      width: 100%;
+    }
+  }
+}

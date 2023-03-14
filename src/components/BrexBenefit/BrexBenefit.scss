@@ -1,0 +1,29 @@
+.brx {
+  background-color: #f4f4f4;
+  .brex {
+    &__left {
+      h1 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        letter-spacing: 1.6px;
+        color: #212121;
+      }
+      p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: #212121;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1078px) {
+  .brex {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}

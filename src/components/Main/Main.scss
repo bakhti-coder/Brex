@@ -1,0 +1,14 @@
+@media screen and (max-width: 1170px) {
+  .main__sct {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .main__sct__left {
+    width: 100% !important;
+    text-align: center;
+  }
+  .main__sct__right img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
