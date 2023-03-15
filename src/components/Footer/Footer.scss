@@ -31,12 +31,20 @@
       letter-spacing: 0.24px;
       color: #bcbdbd;
     }
+    .footer__logos__img img {
+      fill: white;
+    }
   }
 }
 
 @media screen and (max-width: 450px) {
   .footer__menu {
-    flex-wrap: wrap;
+    flex-direction: column;
+    // text-align: start;
+    .footer__menu__logo {
+      margin-bottom: 30px;
+      margin-left: 28px;
+    }
   }
 }
 @media screen and (max-width: 540px) {

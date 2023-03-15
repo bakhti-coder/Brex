@@ -22,7 +22,6 @@ const Navbar = () => {
     {
       const handlerScrool = () => {
         setStick(window.scrollY > 100);
-        console.log(window.scrollY);
       };
       window.addEventListener("scroll", handlerScrool);
       return () => window.removeEventListener("scroll", handlerScrool);

@@ -19,7 +19,7 @@ const Solutions = () => {
             Easy-to-use corporate cards and spend management software in an
             integrated global solution.
           </p>
-          <button type="button" class="btn btn-outline-light">
+          <button type="button" className="btn btn-outline-light">
             Learn more
           </button>
           <div>
@@ -32,7 +32,7 @@ const Solutions = () => {
             Easy-to-use corporate cards and spend management software in an
             integrated global solution.
           </p>
-          <button type="button" class="d- btn btn-outline-dark">
+          <button type="button" className="d- btn btn-outline-dark">
             Learn more
           </button>
           <div>

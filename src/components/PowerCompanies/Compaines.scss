@@ -9,9 +9,19 @@
 }
 .compaines__brands__logo {
   border: 1px solid gray;
-  padding: 80px 109px;
+  padding: 80px 50px;
 }
-.compaines__brands__logo:hover {
+.compaines__brands__logo3 {
+  // margin-bottom: 30px;
+  border: 1px solid gray;
+  padding: 80px 120px;
+}
+.compaines__brands__logo4 {
+  border: 1px solid gray;
+  padding: 80px 102px;
+}
+.compaines__brands__logo:hover, .compaines__brands__logo3:hover, .compaines__brands__logo4:hover {
+  cursor: pointer;
   background: #9bb71e;
   color: white;
   cursor: pointer;
@@ -46,7 +56,7 @@
   .compaines__brands {
     flex-wrap: wrap;
   }
-  .compaines__brands__logo {
+  .compaines__brands__logo, .compaines__brands__logo3, .compaines__brands__logo4 {
     margin-bottom: 30px;
     img {
       width: 100%;
