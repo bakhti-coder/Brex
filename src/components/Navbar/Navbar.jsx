@@ -7,11 +7,12 @@ const Navbar = () => {
   const [sticky, setStick] = useState(false);
   const [active, setActive] = useState("nav-menu");
   const [toogleIcon, setToogleIcon] = useState("nav__toogler");
-
+  
   const navToogler = () => {
     active === "nav-menu"
-      ? setActive("nav-menu nav_active")
-      : setActive("nav-menu");
+    ? setActive("nav-menu nav_active")
+    : setActive("nav-menu");
+    console.log(active);
 
     toogleIcon === "nav__toogler"
       ? setToogleIcon("nav__toogler toogle")

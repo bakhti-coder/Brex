@@ -9,19 +9,12 @@
 }
 .compaines__brands__logo {
   border: 1px solid gray;
-  padding: 80px 50px;
+  width: 33.33333%;
+  img {
+    padding: 80px;
+  }
 }
-.compaines__brands__logo3 {
-  // margin-bottom: 30px;
-  border: 1px solid gray;
-  padding: 80px 120px;
-}
-.compaines__brands__logo4 {
-  border: 1px solid gray;
-  padding: 80px 102px;
-}
-.compaines__brands__logo:hover, .compaines__brands__logo3:hover, .compaines__brands__logo4:hover {
-  cursor: pointer;
+.compaines__brands__logo:hover {
   background: #9bb71e;
   color: white;
   cursor: pointer;
@@ -35,10 +28,13 @@
     flex-wrap: wrap;
     .compaines__card__item {
       img {
-        width: 100%;
+        // width: 100%;
       }
       // text-align: center;
     }
+  }
+  .compaines__brands__logo {
+    width: 50% !important;
   }
   .compaines__brands {
     justify-content: center;
@@ -51,15 +47,33 @@
     flex-direction: column;
     justify-content: center;
   }
+  .compaines__brands__logo {
+    width: 100% !important;
+    img {
+      // width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 410px) {
+  .compaines__brands__logo {
+    img {
+      padding: 60px 20px !important;
+    }
+  }
+}
+@media screen and (max-width: 355px) {
+  body {
+    overflow-x: hidden;
+  }
 }
 @media screen and (max-width: 1300px) {
   .compaines__brands {
     flex-wrap: wrap;
   }
-  .compaines__brands__logo, .compaines__brands__logo3, .compaines__brands__logo4 {
+  .compaines__brands__logo {
     margin-bottom: 30px;
-    img {
-      width: 100%;
-    }
+    // img {
+    //   width: 100%;
+    // }
   }
 }

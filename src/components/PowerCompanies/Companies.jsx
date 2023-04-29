@@ -63,10 +63,10 @@ const Companies = () => {
           </div>
         </div>
         <div className="compaines__brands d-flex justify-content-between align-items-center my-5">
-          <div className="compaines__brands__logo"> <img src={logo4} alt="" /> </div>
-          <div className="compaines__brands__logo"> <img src={logo5} alt="" /> </div>
-          <div className="compaines__brands__logo3"> <img src={logo6} alt="" /> </div>
-          <div className="compaines__brands__logo4"> <img src={logo7} alt="" /> </div>
+          <div className="compaines__brands__logo"> <img src={logo4} alt=""  /> </div>
+          <div className="compaines__brands__logo"> <img src={logo5} alt=""  /> </div>
+          <div className="compaines__brands__logo"> <img src={logo6} alt="" className='ms-5' /> </div>
+          <div className="compaines__brands__logo"> <img src={logo7} alt="" className='ms-4'  /> </div>
         </div>
       </div>
     </section>
